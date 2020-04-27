@@ -1,0 +1,266 @@
+﻿article, aside, canvas, details, figcaption, figure, header, footer, main, menu, nav, section, summary {
+	display: block;
+}
+article, aside {
+	text-align: left;
+	margin: 10px 10px 1em 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+h1, h1 a:link, h1 a:visited, .left_col h2, .right_col h2, .left_col h3, .right_col h3, aside h3 {
+	margin-top: 0px;
+	padding: 0px;
+	line-height: 1.1em;
+	clear: both;
+	color: #999;
+}
+article h1 {
+	font-size: 2em;
+}
+h2, h3, h4, h5, h6, h2 a:link, h3 a:link, h2 a:visited, h3 a:visited {
+	padding: 0px;
+	line-height: 1.1em;
+	clear: both;
+	color: #999;
+}
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background-color: #EEE;
+	color: #333;
+	font-family: Meiryo,Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 1em;
+}
+a:link {
+	text-decoration: none;
+	color: #06c;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	color: red;
+}
+a img {
+	border-width: 0;
+}
+dt{
+	font-weight: bold;
+}
+header, footer {
+	background-color: #fff;
+	clear: both;
+}
+header h1{
+	margin:0;
+	padding:0;line-height:0;font-size:1em
+}
+header p, footer p{
+	margin:10px
+}
+header nav a:hover {
+	text-decoration: underline;
+}
+aside ol {
+	margin: 0px 0px 10px 2em;
+	padding: 0px;
+}
+aside ul, ul.list {
+	list-style-type: none;
+	margin: 0px 0px 1em 0px;
+	padding: 0px;
+	border-top: dotted 1px;
+}
+aside ul li, ul.list li {
+	padding: 0.5em 0px;
+	margin: 0px;
+	border-bottom: dotted 1px;
+}
+aside ol li {
+	margin: 0px;
+	padding: 5px 0px 5px 0px;
+}
+aside li a, .list a {
+	display: block;
+}
+.topic_path .container {
+	padding-left: 10px;
+}
+.subtitle {
+	margin-top: -15px;
+}
+.lead {
+	border: 1px solid #999;
+	background-color: #EEE;
+	margin: 10px 0;
+	padding: 5px;
+	clear: both;
+}
+.lead p {
+	margin: 0;
+}
+.header{
+	background-color:#999
+}
+.point {
+	margin: 1em 0px 1em 0px;
+	border: 1px dashed #999;
+	padding: 10px;
+	clear:both
+}
+.col_wrap {
+	display: block;
+    width: 100%;
+    clear:both;
+}
+.left_col {
+	float: left;
+	width: 49%;
+	margin-bottom: 10px;
+	clear: both;
+}
+.right_col {
+	float: right;
+	width: 49%;
+	margin-bottom: 10px;
+}
+.left_col ul, .right_col ul {
+	padding-top: 0px;
+	margin-top: 0px;
+}
+.container{
+	text-align:left;
+	position:relative;
+	margin:auto;
+	max-width:1085px
+}
+#nav{
+	background-color: #CCC;
+}
+#nav ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+#nav li{
+	float:left;
+	margin:0;
+	padding:0;
+}
+#nav li a{
+	display:block;
+	padding:0 1em;
+	color:#FFF
+}
+
+#page_content,#sidebar {
+	background-color: #FFF;
+}
+
+@media only screen{
+img {
+	max-width: 100%;
+	height: auto;
+}
+.wrapper{
+	font-size:14px
+}
+}
+@media(max-width:480px){
+#snav{
+	display:none
+}
+}
+
+@media(max-width:639px){
+body{
+	-webkit-text-size-adjust: 100%;
+}
+nav#gnav{display:none}
+.left_col, .right_col,footer .left_col, footer .right_col {
+	float: left;
+	width: 100%;
+	margin:0!important
+}
+.left_col ul.list{
+	margin-bottom:0!important
+}
+.right_col ul.list{
+	margin-top:-1px;
+	margin-bottom:1.5em
+}
+.right_col h3, .right_col h4{
+	margin-top:1.1em!important
+}
+#page_content, #sidebar{
+	margin: auto 0px;
+	border-radius: 0px;
+}
+.leftimg,.rightimg {
+	float: none;
+	padding:0;
+	text-align:center
+}
+img.rightimg{
+	display:block;
+	margin:auto
+}
+	
+}
+@media(min-width:768px){
+.search{
+	position:absolute;
+	top:1.5em;
+	right:0px;
+	width:300px;
+}
+}
+@media(min-width:1008px){
+.container{
+	width:975px
+}
+.wrapper {
+	display: inline-block;
+	*display: inline; 
+	*zoom: 1; 
+	width: 985px;
+	margin-bottom: 10px;
+	margin-top:10px;
+}
+#page_content {
+	margin: auto 0px;
+	width: 750px;
+	float: right;
+}
+#sidebar {
+	float: left;
+	width: 220px;
+	margin: auto 0px 10px 0px;
+}
+#page_content, #sidebar {
+	border-radius: 7px;
+}
+article, aside {
+	padding-top: -10px;
+	margin-top: 0;
+	margin-bottom:0
+}
+}
+/*
+@media only screen and (min-width: 1110px) {
+.container{
+	width:1075px
+}
+.wrapper {
+	width: 1085px;
+}
+#page_content {
+	width: 750px;
+}
+#sidebar {
+	width: 320px;
+}
+}
+*/
