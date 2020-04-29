@@ -1,34 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
 
-<head>
-	<meta charset="UTF-8">
-	<title>カップ焼きそばの湯切りに失敗して火傷した時のBGM</title>
-	<style>
-		#text_center {
-			text-align: center;
-		}
+		<title>I - LeaF</title>
 
-		.sb {
-			text-align: center;
-		}
-	</style>
-</head>
+	</head>
+	<body>
 
-<body>
-	<div class="sb">
-		<iframe id="sparebeat" width="960" src="https://sparebeat.com/embed/" frameborder="0"></iframe>
-	</div>
-	<script src="https://sparebeat.com/embed/client.js"></script>
-	<script>
-		Sparebeat.autoload('../map/yakisoba.json','../music/yakisoba.mp3');
-		window.addEventListener('load', function () {
-			document.getElementById('sparebeat').height = window.outerWidth < 990 ? 1280 : 640;
-		});
-	</script>
-	<p id="text_center">
-		<a href="../">戻る</a>
-	</p>
-</body>
+		<div style="text-align:center;">
 
+			<iframe id="sparebeat" width="960" src="https://sparebeat.com/embed/" frameborder="0">
+			</iframe>
+
+			<script src="https://sparebeat.com/embed/client.js">
+			</script>
+
+			<script>
+   	 			Sparebeat.autoload('../map/yakisoba.json','../music/yakisoba.mp3');
+   				 window.addEventListener('load', function() {
+        			document.getElementById('sparebeat').height = window.outerWidth < 990 ? 1280 : 640;
+    			});
+			</script>
+
+		</div>
+
+		<div style="text-align:center;">
+
+		<a href="https://sparebeat.com/settings">設定</a><br>
+		<a href= "../index.html" >戻る</a>
+		</div>
+
+	</body>
 </html>
