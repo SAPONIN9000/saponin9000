@@ -1,1 +1,4 @@
-# Github.io-on-sparebeat-
+管理用メモ
+mapフォルダ:jsonファイルをここに入れる
+musicフォルダ:mp3ファイルをここに入れる
+playフォルダ:htmlファイルをここに入れる
