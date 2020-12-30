@@ -1,12 +1,16 @@
 {
 	"title": "conflict",
 	"artist": "siromaru + Cranky",
+	"bgColor": [
+		"#8843c6",
+		"#191654"
+	],
 	"beats": 4,
 	"bpm": 160,
 	"startTime": 190,
 	"level": {
 		"easy": "",
-		"normal": "15",
+		"normal": 15,
 		"hard": 16
 	},
 	"map": {
@@ -173,7 +177,6 @@
 				"barLine": true
 			},
 			",,,,,,,,,,,,,,,,g"
-
 		],
 		"hard": [
 			",,,,,,,,,,,,,,,",
@@ -209,7 +212,6 @@
 			"12,,c,,2g,4,12,,3,2,3,2,c,,2g,",
 			"d,,2h,3,12,,d,,2h,3,12,,d,,2h,3",
 			{
-				"barLine": true,
 				"speed": -3
 			},
 			"12",
@@ -374,8 +376,7 @@
 			"23,14,23,14,bc,,,,fg,,,,12,12,34,34",
 			"56,,,",
 			{
-				"barLine": false,
-				"speed": 1
+				"barLine": false
 			},
 			"d,,,c,,,b,,,1fgh",
 			{
